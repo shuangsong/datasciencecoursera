@@ -1,12 +1,7 @@
 
-
-
-
-
-
 Feature names
 -------------
-Features.txt contains 68 variables that contains symbol"()-" , "-std", "-mean", and other names that need to replaced or renamed or even deleted. Those variables names are transformed to a cleaned named in tidy data.
+In the tidy dataset, there are feature names(variable names), subject and activity names, also contains data part( xtrain, xtest). Features.txt contains 68 variables names that contains symbol"()-" , "-std", "-mean", and other names that need to replaced or renamed or even deleted. Those variables names are transformed to a cleaned named in tidy data.
 See as below:
 
 |raw data variable names     |    tidy data variable names   |
@@ -110,7 +105,7 @@ Summary of scripts
 * extract only measurements on the mean and standard deviation for each measurement.
 * use descriptive activity names to name the activities in the data set.
 * clean data and combine them into one set.
-* clean variable names by using gsub() command.
+* clean variable names by using gsub() command, then saved as tidy data.txt.
 * Then save a dataset called cleaned_data then exclude columns of activity and subject. That way we 
 * create a second, independent tidy data set with average of each variable for each activity and each subject.
 * Got a tidy data set with avergae of each variable for each activity and subject, called tidyMeans data.txt 
